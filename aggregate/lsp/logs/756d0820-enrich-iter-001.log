@@ -1,0 +1,19 @@
+[2026-04-18T13:37:23Z] === ENRICH ITERATION 1 START | repo=MiCHiLU/python-functools32 sha=756d0820 ===
+[2026-04-18T13:37:23Z] [iter=1] PHASE START: enrich repo=MiCHiLU/python-functools32 sha=756d0820 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/756d0820-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/756d0820a3956829baabc28c6e3685487d7e8ef5.nq.gz
+[2026-04-18T13:37:23Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-04-18T13:37:24Z] [iter=1] AST store loaded triples=102569 load_secs=1 mem_mb=221 MB
+[2026-04-18T13:37:24Z] [iter=1] Step 2: Finding LSP targets mem_mb=221 MB
+[2026-04-18T13:37:24Z] [iter=1] LSP targets found call_sites=854 imports=43 extends=16 implements=0 secs=0
+[2026-04-18T13:37:24Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=221 MB
+[2026-04-18T13:37:25Z] [iter=1] Position index built positions=7141 nodes_with_types=9034 secs=1 mem_mb=221 MB
+[2026-04-18T13:37:25Z] [iter=1] Step 3: Starting LSP resolution mem_mb=221 MB already_completed_types=[] already_completed_files=0
+[2026-04-18T13:37:25Z] [iter=1] Resolving target type target_type=call_site count=854
+[2026-04-18T13:37:54Z] [iter=1] Target type resolved target_type=call_site resolved=280 errors=558 secs=29 mem_mb=221 MB
+[2026-04-18T13:37:54Z] [iter=1] Resolving target type target_type=import_statement count=43
+[2026-04-18T13:37:54Z] [iter=1] HEARTBEAT target_type=import_statement elapsed_min=0.5 files_done=0 resolved=0 errors=0 current=test_support27.py
+[2026-04-18T13:37:56Z] [iter=1] Target type resolved target_type=import_statement resolved=37 errors=0 secs=2 mem_mb=221 MB
+[2026-04-18T13:37:56Z] [iter=1] Resolving target type target_type=extends_clause count=16
+[2026-04-18T13:37:57Z] [iter=1] Target type resolved target_type=extends_clause resolved=16 errors=0 secs=1 mem_mb=221 MB
+[2026-04-18T13:37:59Z] [iter=1] Step 5: Writing final enrichment file triples=8064
+[2026-04-18T13:37:59Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/756d0820a3956829baabc28c6e3685487d7e8ef5.nq.gz size_kb=130
+[2026-04-18T13:37:59Z] [iter=1] PHASE END: enrich elapsed_s=36 elapsed_min=0.6 total_triples=8064
