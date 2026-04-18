@@ -1,0 +1,34 @@
+{
+  "manifest_version": "1.0",
+  "org": "MiCHiLU",
+  "repo": "python-functools32",
+  "versions": [
+    {
+      "commit": "756d0820a3956829baabc28c6e3685487d7e8ef5",
+      "parsed_at": "2026-04-18T13:21:37.854852+00:00",
+      "tag": "3.2.3",
+      "filetree": "filetree/756d0820a3956829baabc28c6e3685487d7e8ef5.nq.gz",
+      "blobs": [
+        "blob/4eff2cb513c7c7edca2bbc902a560bc3d2afecd0.nq.gz",
+        "blob/8b85f1c877ffd586ac975d8d3cd1087e7c9f0d6b.nq.gz",
+        "blob/ed50520ab322ada9a701e500c00091e0a93de521.nq.gz",
+        "blob/df05db1c8d15777a0a567892322efd9d57740b6d.nq.gz",
+        "blob/7f4037cbc936819428a9fa2d9516dab527dadd78.nq.gz",
+        "blob/bf895c72e122d244dff69d2d9264e7dea93e18e0.nq.gz",
+        "blob/687201c938edec555290fa9e435e71412aee3854.nq.gz",
+        "blob/45f2c10684d90cf3ef8c920dc7c38235c743bc27.nq.gz",
+        "blob/3784af7eaf7a062d7ed4940e56896c718af8520e.nq.gz",
+        "blob/524e74120578612e6603d950434d06cd33283879.nq.gz",
+        "blob/03b9855fdd476202fe4dce327065f60de1015a38.nq.gz",
+        "blob/43388e7e13a2f38c07b717f64f8f7d01c7099820.nq.gz",
+        "blob/ddd17a243b0bd9bcbd4e8ebfcd974b655917ee82.nq.gz",
+        "blob/03ceaf13fc94792b30db1cd5ed109a8652840a1a.nq.gz"
+      ]
+    }
+  ],
+  "commit": "commit/commit.nq.gz",
+  "branch": "branch/branch.nq.gz",
+  "tag": "tag/tag.nq.gz",
+  "issue": "issue/issue.nq.gz",
+  "pr": "pr/pr.nq.gz"
+}
